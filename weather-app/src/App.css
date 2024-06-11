@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: #2f3640;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.input-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #8cda58;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.citysinput{
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+}
+
+.search-icon{
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.images{
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.images img{
+  width: 160px;
+  height: 160px;
+}
+
+.temp, .citys, .country{
+  margin-top: 5px;
+  font-size: 35px;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
+.temp{
+  font-weight: 500;
+}
+.citys{
+  color: #ffbc00;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.country{
+  font-size: 18px;
+  color: #888;
+  font-weight: 500;
+
+}
+
+.co-updates{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.co-updates div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.co-updates div span{
+  font-size: 14px;
+}
+.co-updates div span:nth-child(2){
+  font-size: 18px;
+  font-weight: 500;
+  color: #666;
+  padding-top: 5px;
+}
+
+.element-img{
+  width: 50px;
+  height: 50px;
+}
+
+.data-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.element{
+  text-align: center;
+}
+.loading-msg, 
+.error-msg, 
+.notfound {
+  margin-top: 10px;
+  color: #888;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
